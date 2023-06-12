@@ -4,8 +4,8 @@ const sendgridAPIKey = ''
 sgMail.setApiKey(sendgridAPIKey)
 
 sgMail.send({
-  to: 'melina.shakya@ebpearls.com',
-  from: 'melinashakya20@gmail.com',
+  to: '',
+  from: '',
   subject: 'This is my first creation',
   text: 'I hope this one actually get to you'
 })
